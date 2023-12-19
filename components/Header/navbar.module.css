@@ -1,0 +1,36 @@
+.container {
+    position: relative;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 1rem;
+}
+
+.wrapper>img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+}
+
+.Links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Links>a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 1rem;
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.Links>a:hover {
+    color: black
+}

@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper {}
+
+.wrapper .title P {
+    color: purple;
+    font-size: xx-large;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
