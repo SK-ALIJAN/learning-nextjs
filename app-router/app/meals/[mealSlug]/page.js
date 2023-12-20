@@ -3,6 +3,20 @@ import React from "react";
 import classes from "./page.module.css";
 import Image from "next/image";
 
+// for dynamic route , we have use generateMetadata() , follow as it is
+// Next js try to find meta data if not find , then try to find generateMetadata() here
+// make sure , when dynamic route using , use this
+export async function generateMetadata({ params }) {
+  let [{ title, slug, image, summary, creator }] = await individualMeal(
+    params.mealSlug
+  );
+
+  return {
+    title,
+    description: summary,
+  };
+}
+
 const page = async ({ params }) => {
   let [{ title, slug, image, summary, creator }] = await individualMeal(
     params.mealSlug

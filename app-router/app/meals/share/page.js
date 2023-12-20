@@ -1,9 +1,11 @@
+import SubmitBtn from "@/components/meals/mealSubmittingBtn";
 import classes from "./page.module.css";
+import { redirect } from "next/navigation";
 
 export default function ShareMealPage() {
   // in Next js every event handler excuted in client , to get rid of it
   // we can explicitly turn function to server and pass to action in form and get the data using get method ()
-  // make sure input feild right name attribute 
+  // make sure input feild right name attribute
   async function shareMeal(formdata) {
     "use server";
     let meal = {
@@ -13,8 +15,9 @@ export default function ShareMealPage() {
       summary: formdata.get("summary"),
       instructions: formdata.get("instructions"),
     };
+    // here i am getting form data
 
-    console.log(meal);
+    redirect("/meals");
   }
   return (
     <>
@@ -55,7 +58,7 @@ export default function ShareMealPage() {
           </p>
           IMAGE PICKER
           <p className={classes.actions}>
-            <button type="submit">Share Meal</button>
+            <SubmitBtn />
           </p>
         </form>
       </main>
