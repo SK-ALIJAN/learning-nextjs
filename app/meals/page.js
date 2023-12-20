@@ -1,10 +1,11 @@
+import Navbar from "@/components/Header/Navbar";
 import React from "react";
 
 const page = () => {
   return (
-    <div>
-      <h1>meals here</h1>
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 };
 
