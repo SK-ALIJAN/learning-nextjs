@@ -13,3 +13,30 @@
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
+.subTitle {
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.communityBtn {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.communityBtn>p {
+    margin-right: 1rem;
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.communityBtn>a {
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    padding: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 8px;
+}

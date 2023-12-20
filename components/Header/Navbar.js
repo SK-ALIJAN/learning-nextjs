@@ -10,7 +10,9 @@ const Navbar = () => {
     <div className={classes.container}>
       <SVG />
       <div className={classes.wrapper}>
-        <Image src={logo} alt="website logo" priority />
+        <Link href={"/"}>
+          <Image src={logo} alt="website logo" priority />
+        </Link>
 
         <div className={classes.Links}>
           <Link href="/meals">Browse meals</Link>

@@ -1,0 +1,49 @@
+
+.footer {
+  background-color: #800080; /* Purple color */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  flex: 1;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.address {
+  flex: 1;
+  text-align: center;
+}
+
+.social {
+  flex: 1;
+  text-align: right;
+}
+
+.icon {
+  display: flex;
+  gap: 10px;
+}
+
+.socialIcon {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.socialIcon:hover {
+  color: #ddd;
+}

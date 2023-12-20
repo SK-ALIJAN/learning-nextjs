@@ -16,21 +16,32 @@ let SlidingImage = [
 const ImageSlider = () => {
   let [currentSlide, setCurrentSlide] = useState();
 
-  // useEffect(() => {
-  //   let interval = setInterval(() => {
-  //     setCurrentSlide((prevIndex) =>
-  //       prevIndex < SlidingImage.length - 1 ? prevIndex + 1 : 0
-  //     );
-  //   }, 1000);
-  //  console.log(interval);
-  //   return () => {
-  //     clearInterval(interval);
-  //   };
-  // }, []);
+  useEffect(() => {
+    let interval = setInterval(() => {
+      setCurrentSlide((prevIndex) =>
+        prevIndex < SlidingImage.length - 1 ? prevIndex + 1 : 0
+      );
+    }, 3000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
 
   return (
     <div className={classes.Container}>
-     <Image src={image1} alt="image1"/>
+      {SlidingImage.map((ele, i) => {
+        return (
+          <>
+            <Image
+              src={ele.image}
+              alt={ele.alt}
+              className={i === currentSlide ? classes.active : undefined}
+              key={i}
+            />
+          </>
+        );
+      })}
     </div>
   );
 };

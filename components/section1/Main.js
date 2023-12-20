@@ -13,9 +13,9 @@ const Main = () => {
           <p>nextlevel food for</p>
           <p>nextlevel foodies</p>
         </div>
-        <p>Taste & share food from all over the world</p>
+        <p className={classes.subTitle}>Taste & share food from all over the world</p>
 
-        <div>
+        <div className={classes.communityBtn}>
           <p>join the Community</p>
           <Link href="/meals">Explore Meals</Link>
         </div>
