@@ -1,5 +1,5 @@
 "use client";
-// in error components , next want to use "use client" directive to it in client
+// in error components , Next js want  "use client" directive to it so that after data fetch in server component it should be shown in client
 
 import React from "react";
 
