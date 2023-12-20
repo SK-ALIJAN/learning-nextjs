@@ -5,7 +5,6 @@ import React from "react";
 const CommunityPage = () => {
   return (
     <>
-      <Navbar />
       <div style={containerStyle}>
         <h1 style={titleStyle}>Welcome to Our Community!</h1>
         <div style={contentStyle}>

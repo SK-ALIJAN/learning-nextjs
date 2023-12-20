@@ -6,9 +6,8 @@ import Main from "@/components/section1/Main";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Navbar />
       <Main />
-      <Footer/>
+      <Footer />
     </main>
   );
 }

@@ -1,0 +1,44 @@
+{
+  "meals": [
+    {
+      "id": 1,
+      "title": "Spice Juice",
+      "slug": "spice-juice",
+      "image": "https://img.freepik.com/free-photo/top-view-composition-different-pakistan-goodies_23-2148821564.jpg?size=626&ext=jpg&ga=GA1.1.443805697.1698989126&semt=sph",
+      "summary": "A refreshing blend of exotic spices and tropical fruits.",
+      "creator": "Chef John Doe"
+    },
+    {
+      "id": 2,
+      "title": "Mediterranean Salad",
+      "slug": "mediterranean-salad",
+      "image": "https://img.freepik.com/free-photo/delicious-indian-food-tray_23-2148723505.jpg?size=626&ext=jpg&ga=GA1.1.443805697.1698989126&semt=sph",
+      "summary": "Fresh and healthy salad with a mix of Mediterranean flavors.",
+      "creator": "Chef Jane Smith"
+    },
+    {
+      "id": 3,
+      "title": "Grilled Salmon",
+      "slug": "grilled-salmon",
+      "image": "https://img.freepik.com/free-photo/top-view-food-frame-with-copy-space_23-2148723447.jpg?size=626&ext=jpg&ga=GA1.1.443805697.1698989126&semt=sph",
+      "summary": "Juicy and flavorful grilled salmon fillet with lemon and herbs.",
+      "creator": "Chef Michael Johnson"
+    },
+    {
+      "id": 4,
+      "title": "Vegetarian Pasta",
+      "slug": "vegetarian-pasta",
+      "image": "https://img.freepik.com/free-photo/selection-food-tray_1340-23421.jpg?size=626&ext=jpg&ga=GA1.1.443805697.1698989126&semt=sph",
+      "summary": "Delicious pasta with a variety of fresh vegetables and tomato sauce.",
+      "creator": "Chef Emily Davis"
+    },
+    {
+      "id": 5,
+      "title": "Chocolate Lava Cake",
+      "slug": "chocolate-lava-cake",
+      "image": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19739.jpg?size=626&ext=jpg&ga=GA1.1.443805697.1698989126&semt=sph",
+      "summary": "Indulge in a rich and gooey chocolate lava cake with a melting center.",
+      "creator": "Chef Robert Brown"
+    }
+  ]
+}

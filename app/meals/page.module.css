@@ -1,0 +1,23 @@
+.headerContainer {
+    padding-left: 4.2rem;
+    line-height: 3rem;
+}
+
+.title span {
+    color: purple;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.para {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.shareBtn a {
+    text-decoration: none;
+    background-color: purple;
+    padding: 1rem;
+    color: white;
+    border-radius: 8px;
+}
